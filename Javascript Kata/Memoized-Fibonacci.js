@@ -28,7 +28,7 @@
 // it up in the cache, if it's not there, we calculate it and put it in the
 // cache, otherwise we returned the cached number.
 //
-// // Refactor the function into a recursive Fibonacci function that using a 
+// // Refactor the function into a recursive Fibonacci function that using a
 // memoized data structure avoids the deficiencies of tree recursion
 // Can you make it so the memoization cache is private to this function?
 
@@ -44,4 +44,3 @@ var fibonacci = (function() {
     }
     return fib;
 })
-fibonacci();
